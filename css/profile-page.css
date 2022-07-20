@@ -22,8 +22,19 @@ body{font-family: 'Inter', sans-serif;}
     top: 30%;
     height: 35vh;
 }
+.blue {
+    color: rgba(39, 118, 234, 1);
+}
+
+.blue:hover {
+    color: #fff;
+    background-color: rgba(39, 118, 234, 0.8);
+}
 .profile-info{
     color: #555555;
+}
+.btn a{
+    width: 40% !important;
 }
 .input-box{
     color: #2B2B2B;
@@ -40,16 +51,6 @@ body{font-family: 'Inter', sans-serif;}
     border-radius: 5px;
     height: 100%;
     width: 100%;
-}
-.blue{
-    background-color: #2776EA !important;
-    color: #fff;
-}
-.blue:hover{
-    color: #fff;
-}
-.btn a{
-    width: 40% !important;
 }
 @media (max-width: 992px) {
     .mobile {
@@ -68,17 +69,6 @@ body{font-family: 'Inter', sans-serif;}
     .p-container{
         width: 75% !important;
     }
-    /* .recruiter-info{
-        height: 60vh !important;
-    } */
-    /* .image1{
-        height: auto !important;
-    } */
-}
-@media (max-width: 600px){
-    .images img{
-        height: 200px !important;
-    }
 }
 @media(max-width: 426px){
     .p-container{
@@ -87,7 +77,4 @@ body{font-family: 'Inter', sans-serif;}
     .btn a{
         width: 40% !important;
     }
-    /* .recruiter-info{
-        height: 73vh !important;
-    } */
 }
